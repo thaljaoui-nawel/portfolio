@@ -1,0 +1,181 @@
+/*Reset Style*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Main styling*/
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+  background-color: aliceblue;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+h1,
+h3 {
+  padding-bottom: 20px;
+}
+
+i {
+  margin-bottom: 10px;
+}
+p {
+  margin: 10px;
+}
+img {
+  width: 100%;
+}
+/*navbar*/
+#navbar {
+  padding-top: 80px;
+  height: 300px;
+  text-align: center;
+}
+#navbar h1 {
+  font-size: 24px;
+  font-weight: 400px;
+}
+
+/* Utility classes */
+.btn {
+  padding: 15px;
+  background-color: #d4d4d4;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.form-control label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.form-control input,
+.form-control textarea {
+  display: block;
+  padding: 15px;
+  width: 100%;
+}
+
+/* Navbar */
+#navbar {
+  padding-top: 80px;
+  height: 300px;
+  text-align: center;
+}
+
+#navbar h1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#navbar h3 {
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#navbar ul li {
+  display: inline-block;
+}
+
+#navbar a {
+  padding: 10px;
+  font-size: 18px;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Showcase */
+#showcase {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#showcase h1,
+#about h1,
+#work h1,
+#contact h1 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+#showcase p {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+/* About Section */
+#about {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#about p {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+#about img {
+  border-radius: 100%;
+  width: 300px;
+}
+
+/* Work Section */
+#work {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#work img {
+  border: 2px solid black;
+}
+
+/* Contact Section */
+#contact {
+  padding: 30px;
+  text-align: center;
+}
+
+#contact form {
+  margin-bottom: 20px;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 10px;
+}
